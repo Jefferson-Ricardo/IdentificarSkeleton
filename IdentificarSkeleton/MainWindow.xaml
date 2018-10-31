@@ -5,8 +5,61 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:IdentificarSkeleton"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="MainWindow" Height="450 " Width="800" WindowState="Maximized">
+    <Grid Margin="0,0,2,59">
+        <Button HorizontalAlignment="Left" Height="54" Margin="3,361,0,-55" VerticalAlignment="Top" Width="260" Click="Button_Click">
+            <DockPanel>
+                <Label HorizontalContentAlignment="Center"
+                       DockPanel.Dock="Right"
+                       Width="150"
+                       Padding="5"
+                       TextBlock.TextAlignment="Center"
+                       BorderBrush="Transparent"
+                       VerticalContentAlignment="Center">
+                    <TextBox TextWrapping="Wrap"
+                             TextAlignment="Center" 
+                             Text="Sair" 
+                             VerticalAlignment="Center" 
+                             VerticalContentAlignment="Center"
+                             Background="Transparent"
+                             BorderBrush="Transparent"
+                             FontSize="18"
+                             />
+                </Label>
+                <Image Source="C:\Users\jricardo\source\repos\IdentificarSkeleton\IdentificarSkeleton\images\sair.ico"
+                   HorizontalAlignment="Right"
+                   VerticalAlignment="Center"
+                   ></Image>
+            </DockPanel>
+        </Button>
+        <Button Content="Button" HorizontalAlignment="Left" Height="54" Margin="266,361,0,-55" VerticalAlignment="Top" Width="260"/>
+        <Button HorizontalAlignment="Left" Height="54" Margin="529,361,0,-55" VerticalAlignment="Top" Width="260">
+            <DockPanel>
+                <Label HorizontalContentAlignment="Center"
+                       DockPanel.Dock="Right"
+                       Width="150"
+                       Padding="5"
+                       TextBlock.TextAlignment="Center"
+                       BorderBrush="Transparent"
+                       VerticalContentAlignment="Center">
+                    <TextBox TextWrapping="Wrap"
+                             TextAlignment="Center" 
+                             Text="Capturar" 
+                             VerticalAlignment="Center" 
+                             VerticalContentAlignment="Center"
+                             Background="Transparent"
+                             BorderBrush="Transparent"
+                             FontSize="18"
+                             />
+                </Label>
+                <Image Source="C:\Users\jricardo\source\repos\IdentificarSkeleton\IdentificarSkeleton\images\capturar.png"
+                   HorizontalAlignment="Right"
+                   VerticalAlignment="Center"
+                   ></Image>
+            </DockPanel>
+        </Button>
+
+
+
     </Grid>
 </Window>
